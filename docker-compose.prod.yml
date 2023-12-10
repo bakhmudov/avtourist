@@ -31,7 +31,7 @@ services:
       - ./tmp/db:/var/lib/mysql
     environment:
       MYSQL_DATABASE: avtourist
-      MYSQL_USER: bakhmudov
+      MYSQL_USER: pass
       MYSQL_PASSWORD: pass
     ports:
       - "8101:3306"
